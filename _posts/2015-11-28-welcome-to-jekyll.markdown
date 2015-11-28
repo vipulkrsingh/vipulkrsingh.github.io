@@ -20,6 +20,6 @@ As [Jekyll](https://jekyllrb.com/docs/home/) puts it.
 
 So i followed [this](https://pages.github.com) beautiful how-to guide by github and bam! the blog is here.
 
-Next step is choosing a theme for the based blog, the community comes to rescue with a bunch of cool themes, like this one i found on jekylltheme.org [here](http://jekyllthemes.org/themes/daktilo/).  This elegant theme created by [Daktilo](https://github.com/kronik3r/daktilo) caught my attention. Daktilo had clear instructions about how to set it up and now i have a nice theme for the blog as well.
+Next step is choosing a theme, the community comes to rescue with a bunch of cool themes, like this one i found on jekylltheme.org [here](http://jekyllthemes.org/themes/daktilo/).  This elegant theme created by [Daktilo](https://github.com/kronik3r/daktilo) caught my attention. Daktilo had clear instructions about how to set it up and now i have a nice theme for the blog as well.
 
 So now there is a blog, a cool theme and an easy way to keep publishing posts. Time start creating some posts.
