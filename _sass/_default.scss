@@ -33,8 +33,12 @@ blockquote {
     margin-top: 40px;
     margin-bottom: 70px;
     padding: 0px;
-    text-align: center;
+    text-align: left;
     position: relative;
+
+    border-left: 10px solid rgba(128,128,128,0.075);
+    background-color: rgba(128,128,128,0.05);
+    padding: 15px 20px;
 
     footer {
         position: absolute;

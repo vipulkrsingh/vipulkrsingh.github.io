@@ -4,16 +4,16 @@ description: >
   Burp's of randomness, arising out of work, love, life and beyound.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "http://vipulkrsingh.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Vipul Kumar singh
   googleplus: https://plus.google.com/u/0/100222356978656072971
   github: vipulkrsingh
   twitter: vipulkrsingh
-  # disqus: your_disqus_username
+  disqus: vipulkrsingh
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-70796469-1'
 
 # Build settings
 markdown: kramdown
