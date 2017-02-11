@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Redux!"
+subtitle: "Quick review of core redux concepts"
+date: 2017-01-10 01:00:00
+categories: [tech]
+---
+
+Basic Concepts
+
+1. State Tree
+   - Everything that changes in the application including data and UI states are stored in single object called state or state tree.
+   - Is minimal representation of App 
+2. State can only change by action
+   - State is READ ONLY
+   - Can be change by only dispatching an action
+   - Action is a JavaScript object, describing in a minimal way what changed in an application
+3. Pure functions 
+   -  Should not do network call, db call, update DOM etc..
+   - Should not modify the object that is passed.
+4. Reducer Function
+   - Takes previous state, action being dispatched and returns new state of the app
+   - Has to be pure function
+5. Properties of a reducer function
+   - Should accept state and action as argument
+   - Should return current state in case un-handled event type is recieved
+   - Should return default state in case state is undefined.
+
+example for a reducer
+```
+
+const counter = (state =0,action) => {
+  switch(action.type) {
+    case 'INCREMENT':
+      return state + 1;
+    case 'DECREMENT':
+      return state - 1;
+    default:
+      return state;
+  }
+}
+```
