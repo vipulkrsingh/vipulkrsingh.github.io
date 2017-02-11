@@ -27,8 +27,8 @@ Basic Concepts
    - Should return default state in case state is undefined.
 
 example for a reducer
-```
 
+```
 const counter = (state =0,action) => {
   switch(action.type) {
     case 'INCREMENT':
