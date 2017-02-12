@@ -25,7 +25,7 @@ Deployment Pipeline : An automated implementation of systems's build,deploy,test
 - QA / Testing shoul be able to test any build on demand by one click.
 - Deployment Team should be able to deploy any build by one click
 
-{% include image name="linkedin-before.png" caption="Sharing my blog on LinkedIn" %}
+{% include image name="process_diagram.png" caption="Deployment Pipeline" %}
 
 References - [Continuous Delivery By
 Martin Fowler, Jez Humble ](https://yow.eventer.com/events/1004/talks/1062)
