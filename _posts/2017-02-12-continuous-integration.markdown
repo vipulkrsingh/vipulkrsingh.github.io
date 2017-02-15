@@ -36,11 +36,15 @@ Deployment Pipeline : An automated implementation of systems's build,deploy,test
 
 Following diagram shows variaous stages of deployent pipeline and the interaction between them
 
+
 {% include image name="process_diagram.png" caption="Deployment Pipeline" %}
+
 
 Everything is automated for fasterfeedback, and down the pipeline evironments become similar to production.
 
+
 {% include image name="deployment_pipeline.jpg" caption="Deployment Pipeline" %}
+
 
 ### Embrace ###
 
