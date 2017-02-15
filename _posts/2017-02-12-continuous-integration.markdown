@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Continous Integration"
+title:  "Continuous Integration"
 subtitle: "Quick review of core concepts"
 date: 2017-02-12 01:00:00
 categories: [tech]
