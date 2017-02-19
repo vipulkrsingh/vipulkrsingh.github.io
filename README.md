@@ -1,60 +1,37 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kronik3r/daktilo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+dbyll
+=====
 
-# Daktilo
-Daktilo is a [Jekyll](jekyllrb.com) theme with a minimal design inspired from typewriters.
+Open source stylish, minimalistic theme for jekyll.  
+Demo: http://dbtek.github.io/dbyll/
 
-# Live preview
-[Click here](http://hitchhiker.ma/daktilo/) to see the theme in action.
+## New
+- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
 
-# Features
-- Fully responsive
-- [Disqus](https://disqus.com/) integration for comments.
-- Google Analytics integration.
-- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
-- Support for categories.
-- Font-Awesome Icons.
-- Optimized for SEO.
-- Coolest [404 page ever](http://hitchhiker.ma/daktilo/404.html).
+### Features
+- Responsive layout.
+- Supports tags and categories.
+- Social profile and bio of author.
+- Bootstrap based.
+- Glyphicon and Font-Awesome Icons.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
+- :new: Custom sidebar background image.
 
-# How to use it
-Start by cloning the repository, then check the `_config.yml` file and change it accordingly.
-Note that the `title` property is what will be displayed as logo.
 
-Finally execute `jekyll serve --watch` and head to [localhost:4000](http://127.0.0.1:4000) to see the result.
+### Download
+* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
 
-# Using categories
-Categories are little bit tricky. Please make sure to do the following for each category:
+### Install
+- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
+- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
+- Go to the root of the repo and run this - ```bundle install```
+- Then - ```bundle exec jekyll serve```
 
-- Create a file within `categories` folder with the name of your category
-For example let's say that we have a category called `An Awesome Category` you will need to add an `an-awesome-category.html` file with this content:
+### Screenshots
+![dbyll-screenshot](assets/media/dbyll-ss.png)
 
-``` html
----
-layout: category
-category: an-awesome-category
-permalink: /categories/an-awesome-category/
----
+### License
+- [MIT](http://opensource.org/licenses/MIT)
 
-```
-
-- Create an entry inside `_data/categories.yml`
-
-``` html
-- slug: an-awesome-category
-  name: An Awesome Category
-```
-
-- Then you will see it in the footer in the `Explore` section.
-
-# Sneak peek
-
-![img][home_desktop]
-
-![img][home_phone]
-
-[home_desktop]: https://raw.githubusercontent.com/kronik3r/assets/master/daktilo/desktop.png
-[home_phone]: https://raw.githubusercontent.com/kronik3r/assets/master/daktilo/phone.png
-
-# License
-
-The contents of this repository is licensed under [The MIT License.](https://opensource.org/licenses/MIT)

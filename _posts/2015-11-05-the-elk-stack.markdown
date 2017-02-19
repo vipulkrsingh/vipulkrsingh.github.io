@@ -6,6 +6,7 @@ date: 2015-11-05 01:00:00
 categories: [tech]
 ---
 
+Elasticsearch + Logstash + kibana = awesomeness."
 
 We want to capture a lot of event based data, and analyis it quickly. We wanted a way to captuer 100s of MB of event / log data and expose it to other teams in a way that it is easy to search, aggregate and create graphs to get insights from the data.
 

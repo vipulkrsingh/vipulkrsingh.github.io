@@ -6,7 +6,7 @@ date: 2017-01-10 01:00:00
 categories: [tech]
 ---
 
-Basic Concepts
+Quick review of core redux concepts
 
 1. State Tree
    - Everything that changes in the application including data and UI states are stored in single object called state or state tree.

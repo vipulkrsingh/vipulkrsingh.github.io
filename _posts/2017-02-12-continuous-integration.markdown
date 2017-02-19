@@ -6,18 +6,18 @@ date: 2017-02-12 01:00:00
 categories: [tech]
 ---
 
-### Recognize the pain, you must!###
+Here is a quick review of core concepts
 
-_` How long would it take you organization to deploy a change that involved just one line of code? Do you do this on a repeatable, relaible basis ? `_
+**Recognize the pain, you must!**
+_How long would it take you organization to deploy a change that involved just one line of code? Do you do this on a repeatable, relaible basis ?_
 
-### Know the priorities. ###
+**Know the priorities**
+_Our highest priority is  to satisfy the customer through early and continuous delivery of valuable software  - Agile Manifesto_
 
-_` Our highest priority is  to satisfy the customer through early and continuous delivery of valuable software  - Agile Manifesto`_
+**The Idea!**
+_Cease dependence on mass inspection to achieve quality. Improve the process  and build quality into the product in the first place  - E Edwards Deming_
 
-### The Idea!###
-_` Cease dependence on mass inspection to achieve quality. Improve the process  and build quality into the product in the first place  - E Edwards Deming`_
-
-### How ? ###
+#### How ? ####
 
 Release frequently in order to
 
@@ -36,11 +36,12 @@ Deployment Pipeline : An automated implementation of systems's build,deploy,test
 
 Following diagram shows variaous stages of deployent pipeline and the interaction between them
 
-{% include image name="process_diagram.png" caption="Deployment Pipeline" %}
+![Process Diagram]({{ site.url }}/assets/process_diagram.png)
 
 Everything is automated for fasterfeedback, and down the pipeline evironments become similar to production.
 
-{% include image name="deployment_pipeline.jpg" caption="Deployment Pipeline" %}
+
+![Deployment Pipeline]({{ site.url }}/assets/deployment_pipeline.jpg)
 
 
 ### Embrace ###

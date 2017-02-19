@@ -6,6 +6,8 @@ date: 2017-02-12 01:00:00
 categories: [productivity]
 ---
 
+Lets take a look at some of biases that influence our decisions
+
 Taking right decision without subject biases is very important in day to day life. There is no magic formula to save us from the following but being aware of them goes a long way in helping us take good decisions. Here is a list of biases that can come in the way of taking good decisions.
 
 - The *Overconfidance affecct* is a well-established bias in which a person's subjective confidence in his or her judgments is reliably greater than the objective accuracy of those judgments, especially when confidence is relatively high

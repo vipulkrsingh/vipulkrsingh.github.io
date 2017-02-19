@@ -1,19 +1,42 @@
-# Site settings
-title: vipulkrsingh
-description: >
-  Burp's of randomness, arising out of work, love, life and beyound.
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://vipulkrsingh.github.io" # the base hostname & protocol for your site
+paginate: 5 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: vipulkrsingh
+google_analytics: vipulkrsingh
+title: vipulkrsingh
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Burps of randomness!
+
+description: Burp's of randomness, arising out of work, love, life and beyond.
 
 author:
-  fullname: Vipul Kumar singh
+  name: Vipul Kumar Singh
   googleplus: https://plus.google.com/u/0/100222356978656072971
   github: vipulkrsingh
   twitter: vipulkrsingh
   disqus: vipulkrsingh
+  email: vipulkrsingh@gmail.com
+  linkedin: vipul-kumar-singh-792b02a
+  bio: Keeper of the Light!
+  email_md5: eb0dfe5e0a0e7e28e736a89d7cb781b1
 
-google_analytics: 'UA-70796469-1'
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
 
-# Build settings
-markdown: kramdown
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate

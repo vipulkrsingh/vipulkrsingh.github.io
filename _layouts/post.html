@@ -1,12 +1,8 @@
 ---
 layout: default
 ---
-{% include post/title.html %}
+{% include post.html %}
 
-<div class="content">
-    {{ content }}
-</div>
-
-{% include post/about.html %}
-
-{% include externals/disqus.html %}
+{% if site.disqus and page.comments %}
+    {% include disqus.html %}
+{% endif %}

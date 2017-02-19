@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Decision Making - Problem Framing"
-subtitle: "Summay of biases while taking decisions"
+subtitle: "Frame your problem statement wisely!"
 date: 2017-02-18 01:00:00
 categories: [productivity]
 ---
 
-_` Prospect theory is a behavioral economic theory that describes the way people choose between probabilistic alternatives that involve risk, where the probabilities of outcomes are known. `_
+Always frame your problem statement wisely!
+
+> Prospect theory is a behavioral economic theory that describes the  way people choose between probabilistic alternatives that involve risk, where the probabilities of outcomes are known.
 
 - Frame is mental model about how things work in the world
 - Framing a problem can have a big affect on the decision making.
@@ -37,4 +39,4 @@ _` Prospect theory is a behavioral economic theory that describes the way people
 - Look into the assumptions behind mental models and challenge the assumptions.
 - Try not to oversimplify situation while framing the problem
 
-*` Better if we have competing frames to look at the problem. Power of competing frames is immense `*
+> Better if we have competing frames to look at the problem. Power of competing frames is immense 
