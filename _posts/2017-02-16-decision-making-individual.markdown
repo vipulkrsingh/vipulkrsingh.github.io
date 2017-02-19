@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Decision Making (Individuals)"
+title:  "Decision Making - Individuals"
 subtitle: "Summay of biases while taking decisions"
 date: 2017-02-12 01:00:00
 categories: [productivity]
