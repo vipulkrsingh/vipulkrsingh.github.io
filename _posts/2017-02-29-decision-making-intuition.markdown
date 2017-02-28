@@ -8,24 +8,24 @@ categories: [productivity]
 
 Many decisions we take do not undergo process of formal decision making as shown below.
 
-{% mermaid %}
+<div class="mermaid">
   graph LR
     A[Define] --> B[Generate Alternatives]
     B[Generate Alternatives] --> C[Evaluate]
     C[Evaluate] --> D[Choose]
     D[Choose] --> E[Impliment]
-{% endmermaid %}
+</div>
 
 Intutive decision making follows a different model. It is fundamentally a pattern recognition and pattern matching based on past experience.
 
-{% mermaid %}
+<div class="mermaid">
 graph TD
     A[Cues - From events / surroundings] --> B[Trigger Thinking]
     B[Trigger Thinking] --> C
     C[Subconsciously - Brain matches cues with past patterns] --> D
     D[Comparision - Brain compairs past and present patterns] --> E
     E[Reason by analogy] --> F[Course of action based on scripts]
-{% endmermaid %}
+</div>
 
 
 Key Questions
