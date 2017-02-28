@@ -40,4 +40,3 @@ BASE_PATH:
 
 gems:
   - jekyll-paginate
-  - jekyll-mermaid
