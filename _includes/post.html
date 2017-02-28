@@ -16,6 +16,10 @@
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
 	 </span>
+      <span>
+          {% capture time %}{{ content | reading_time }}{% endcapture %}
+      (~ {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}).
+      </span>
 	  <div class="article_body">
 	  {{ content }}
 	  </div>

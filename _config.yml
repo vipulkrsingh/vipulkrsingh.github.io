@@ -40,3 +40,7 @@ BASE_PATH:
 
 gems:
   - jekyll-paginate
+  - jekyll-mermaid
+
+mermaid:
+  src: '/assets/resources/mermaid/mermaid.js'
