@@ -8,7 +8,7 @@ categories: [tech]
 
 Simple! Powerfull! Agentless!
 
-Thats right, relatively new kid on the block. Ansible as gained wide popularity. 
+Thats right, relatively new kid on the block. Ansible as gained wide popularity.
 
 Ansible can be used for
 
