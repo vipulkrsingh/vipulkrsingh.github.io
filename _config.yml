@@ -1,42 +1,68 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md","vendor"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-disqus: vipulkrsingh
-google_analytics: vipulkrsingh
-title: "Margin Overflow"
-
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Margin Overflow!
-
+# Site Settings
+title: Margin Overflow
 description: "Where code meets contemplation" # Optional tagline suggestion
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vipulkrsingh.github.io" # your site's domain
 
+# Build Settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+paginate: 5
+
+
+# Theme settings
+remote_theme: chesterhow/tale
+
+# Plugin settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author settings
 author:
   name: Vipul Kumar Singh
-  googleplus: https://plus.google.com/u/0/100222356978656072971
   github: vipulkrsingh
   twitter: vipulkrsingh
-  disqus: vipulkrsingh
   email: vipulkrsingh@gmail.com
   linkedin: vipul-kumar-singh-792b02a
   bio: Programmer, Engineer .. Student of the force!
-  email_md5: eb0dfe5e0a0e7e28e736a89d7cb781b1
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+# SEO settings
+twitter:
+  username: vipulkrsingh
+  card: summary_large_image
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+social:
+  name: Vipul Kumar Singh
+  links:
+    - https://twitter.com/vipulkrsingh
+    - https://github.com/vipulkrsingh
+    - https://linkedin.com/in/vipulkrsingh
 
-BASE_PATH:
+# Feed settings
+feed:
+  path: feed.xml
 
-gems:
-  - jekyll-paginate
+
+# Layout settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
