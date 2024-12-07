@@ -19,6 +19,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-mermaid
 
 # Author settings
 author:
@@ -66,3 +67,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+mermaid:
+  src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'

@@ -14,11 +14,11 @@
 ### Running the Server
 - Run with drafts visible:
   ```bash
-  jekyll serve --drafts
+  bundle exec jekyll serve --drafts
   ```
 - Run without drafts:
   ```bash
-  jekyll serve
+  bundle exec jekyll serve
   ```
 - Access the site at: `http://localhost:4000`
 
