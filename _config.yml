@@ -7,16 +7,16 @@ highlighter: rouge
 markdown: kramdown
 disqus: vipulkrsingh
 google_analytics: vipulkrsingh
-title: "Vipul Kumar Singh"
+title: "Margin Overflow"
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Burps of randomness!
+      title: Margin Overflow!
 
-description: Burp's of randomness, arising out of work, love, life and beyond.
+description: "Where code meets contemplation" # Optional tagline suggestion
 
 author:
   name: Vipul Kumar Singh
