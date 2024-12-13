@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Attention is all you need"
-date: 2024-13-07
+date: 2024-12-13
 categories: [AI]
 ---
 
