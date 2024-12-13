@@ -3,6 +3,7 @@ layout: post
 title: "Attention is all you need"
 date: 2024-12-13
 categories: [AI]
+author: Vipul Kumar Singh, claud.ai
 ---
 
 _These are notes and thoughts on the [Attention is All You Need](https://arxiv.org/abs/1706.03762) paper._
