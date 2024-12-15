@@ -6,9 +6,10 @@ categories: [AI]
 author: Vipul Kumar Singh, claud.ai
 ---
 
-_These are notes and thoughts on the [Attention is All You Need](https://arxiv.org/abs/1706.03762) paper._
+Have you ever tried reading [Attention is All You Need](https://arxiv.org/abs/1706.03762) paper- the groundbreaking Transformer paper - and felt overwhelmed by its technical density? You're not alone. While this paper revolutionized natural language processing and laid the foundation for models like BERT, GPT, and modern LLMs, its academic style and mathematical detail can make it challenging for newcomers. This blog post serves as a friendly companion to the paper, breaking down its core concepts using familiar analogies and visual explanations. Think of it as a warm-up before diving into the technical depths of the original paper. We'll explore the key innovations of the Transformer architecture - particularly its attention mechanism - using analogies from Star Wars and Harry Potter, along with clear visualizations. Whether you're preparing to read the paper for the first time or looking to better understand concepts you've previously encountered, this guide will help build an intuitive understanding of how and why Transformers work.
 
-RNNs (Recurrent Neural Network) and LSTM (Long Short-Term Memory) were the state-of-the-art for sequence tasks like translation, but their sequential nature limits parallelization and efficiency. The praper proposes Transformer architecture, that replaces recurrence with attention mechanisms, enabling parallel processing and achieving superior translation quality with significantly less training time.
+RNNs (Recurrent Neural Network) and LSTM (Long Short-Term Memory) were the state-of-the-art for sequence tasks like translation, but their sequential nature limits parallelization and efficiency. The paper proposes Transformer architecture, that replaces recurrence with attention mechanisms, enabling parallel processing and achieving superior translation quality with significantly less training time.
+
 
 <div class="mermaid">
 graph TD
@@ -45,6 +46,8 @@ graph TD
     class C1,C2,C3,F1,F2,F3 output
 </div>
 
+<p class="image-caption">Figure 1: Transformer Model vs RNN/LSTM Model</p>
+
 <h3>Concept of Attention</h3>
 
 Before we dive into the Transformer architecture, let's first understand the concept of attention, with Start Wars and Harry Potter Analogy.
@@ -52,10 +55,12 @@ Before we dive into the Transformer architecture, let's first understand the con
 <b>Star Wars Analogy:</b> When lifting the X-wing from the swamp, Luke specifically focuses on the X-wing (high attention weight) while ignoring rocks and trees (low attention weights), even though all objects are within his Force reach.
 
 ![Star Wars Analogy]({{ site.url }}/assets/luke_force.png)
+<p class="image-caption">Luke focuses on lifting the X-wing from the swamp</p>
 
 <b>Harry Potter Analogy:</b> When Harry casts his strongest Patronus, he doesn't give equal weight to all memories. Instead, he specifically focuses on powerful happy memories (high attention) while automatically filtering out memories of the Dursleys (low attention), even though all memories are technically available to him.
 
 ![Harry Potter Analogy]({{ site.url }}/assets/harry_patronus.png)
+<p class="image-caption">Harry Potter focuses on his memories to cast his strongest Patronus</p>
 
 In both cases, attention works like a selective focus mechanism, automatically weighing what's important for the current task while still having access to everything.
 
@@ -71,6 +76,7 @@ graph TD
     H1 & H2 & H3 & H4 --> C[Combine Results]
     C --> O[Final Output]
 </div>
+<p class="image-caption">Figure 2: Conceptual view of Multi-Head Attention</p>
 
 <h3>Encoder & Decoder</h3>
 
@@ -102,7 +108,7 @@ graph LR
     class D decoder
     class Y1 output
 </div>
-
+<p class="image-caption">Figure 3: Simplified, high level view of Encoder & Decoder</p>
 <h3>Putting it all together</h3>
 
 _The image on the right is taken from the paper._
@@ -117,3 +123,32 @@ The Transformer employs several techniques to maintain stable and effective trai
 
 Through this combination of innovative components, the Transformer achieves high-quality sequence transformations more efficiently than its predecessors, setting new standards in natural language processing tasks.
 
+
+<div class="footnotes">
+
+Next Steps and Further Reading:
+<ol>
+    <li>If you would like to get your hands dirty with the Transformer architecture, here are some resources:
+        <ol>
+            <li><a href="http://jalammar.github.io/illustrated-transformer/">Illustrated Transformer</a> by Jay Alammar - A visual deep dive into the architecture</li>
+            <li>Try implementing a simple Transformer using <a href="https://pytorch.org/tutorials/beginner/transformer_tutorial.html">PyTorch's tutorial</a> or <a href="https://www.tensorflow.org/text/tutorials/transformer">TensorFlow's guide</a></li>
+            <li>Experiment with <a href="https://huggingface.co/docs/transformers/index">Hugging Face's Transformers library</a> to understand practical applications</li>
+            <li>Andrej Karpathy's <a href="https://github.com/karpathy/minGPT">minGPT</a> implementation for a minimalistic Transformer</li>
+            <li><a href="https://nlp.seas.harvard.edu/annotated-transformer/">The Annotated Transformer</a> by Harvard NLP group</li>
+        </ol>
+    </li>
+    <li>If you are interested in understanding the Transformer architecture in more detail, here are some resources:
+        <ol>
+            <li>Explore recent Transformer variants like <a href="https://arxiv.org/abs/1810.04805">BERT</a>, <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">GPT</a>, and <a href="https://arxiv.org/abs/1910.10683">T5</a></li>
+            <li>Read <a href="https://arxiv.org/abs/2005.14165">"Language Models are Few-Shot Learners"</a> (GPT-3 paper) to understand scaling effects</li>
+            <li>Study <a href="https://arxiv.org/abs/1706.03762">"Attention Is All You Need"</a> paper's implementation details and mathematical foundations</li>
+        </ol>
+    </li>
+    <li>If you are interested in AI and machine learning, here are some resources:
+        <ol>
+            <li><a href="https://web.stanford.edu/class/cs224n/">Stanford CS224N NLP with Deep Learning</a> course materials</li>
+            <li><a href="https://www.oreilly.com/library/view/natural-language-processing/9781098136789/">"Natural Language Processing with Transformers"</a> book by Lewis Tunstall et al.</li>
+        </ol>
+    </li>
+</ol>
+</div>
